@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url(../font/helvetica.ttf);
+}
+
+body{
+    font-family: 'helvetica';
+    font-size: 1.2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.425)), url('../img/hadispedia.jpeg');
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-grey{
+    background-color: #929292;
+}
+
+.line-height-2{
+    line-height: 2;
+}
+
+
+.icon-search{
+    z-index: 9;
+}
+
+.form-search{
+    border: 2px solid #1ba549;
+}
+.form-search:focus{
+    box-shadow: rgba(46, 204, 113, 0.19);
+    border-color: #1ba549;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand{
+    font-family: 'Signika', sans-serif;
+    font-weight: 500 !important;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    color: white !important;
+}
+
+.hamburger-menu{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.dropdown-menu{
+    border-radius: 10px;
+}
+
+.dropdown-item:active{
+    background-color: #1ba549
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(27 165 73 / 25%)
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.hadispedia-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.icon-user{
+    width: 30px;
+}
+
+.title{
+    font-family: 'Signika', sans-serif;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.list-tokoh{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.list-tokoh > span{
+    color: white;
+    font-size: 18px;
+    margin: 0 20px;
+    line-height: 3;
+}
+
+#saran-button{
+    cursor: pointer;
+}
+
+#saran{
+    display: none;
+}
+
+.icon-kesan{
+    width: 40px;
+}
+
+.icon-download{
+    width: 100px;
+    margin: 0 10px;
+}
+
+.icon-download-mobile{
+    width: 150px;
+    margin: 0 10px;
+}
+
+input{
+    border-radius: 20px !important;
+    padding: 10px 15px 10px !important;
+}
+
+form .input-group{position: relative;}
+form .fa-search{
+    position: absolute;
+    top: 12px;
+    left: 93%;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 16px;
+    margin-top: -80px;
+}
+
+.text a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.text-1{
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.text-1 a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.text-2{
+    font-size: 16px;
+}
+
+.text-2 a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.linimasa{
+    color: white;
+    font-family: 'Signika', sans-serif;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+label{
+    font-family: 'Signika', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;  
+    padding-left: 100px;
+}
+
+.input .input-group{position: relative;}
+.input .fa-search{
+    position: absolute;
+    top: 12px;
+    left: 85%;
+    font-size: 20px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.card{
+    min-height: 200px;
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #efefef;
+}
+
+.card-detail{
+    min-height: 400px;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-detail-1{
+    min-height: 270px;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-list-topic{
+    background-color: #f9f8f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+    font-size: 20px;
+    border-radius: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #719b9b;
+}
+
+.text-page{
+    text-align: center;
+    color: gray;
+    word-spacing: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nama-tokoh{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+span{
+    font-weight: normal;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.saler{
+    width: 25px;
+    position: absolute;
+    z-index: 2;
+    left: -3%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.info{
+    min-height: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    margin-top: -150px;
+}
+
+footer{
+    background: #929292;
+    margin-top: auto;
+}
+
+.footer-text{
+    color: #5e5e5e !important;
+    font-size: 12px;
+}
+
+
+.list-timeline{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.timeline {
+	width:100%;
+	height: 20px;
+	list-style: none;
+	text-align: justify;
+	margin: 80px auto;
+    padding-left: 0;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, #fff), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, #fff 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.timeline:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+
+.timeline li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	border-radius: 50%;
+    cursor: pointer;
+}
+
+.timeline li:before {
+	display: inline-block;
+	content: attr(data-year);
+	font-size: 17px;
+    color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.timeline li:nth-child(odd):before {
+	top: -40px;
+}
+.timeline li:nth-child(even):before {
+	bottom: -40px;
+}
+.timeline li:after {
+	display: inline-block;
+	content: attr(data-text);
+	font-size: 16px;
+	position: absolute;
+    color: #fff;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.timeline li:nth-child(odd):after {
+	bottom: 0;
+	margin-bottom: -10px;
+	transform: translate(-50%, 100%);
+}
+.timeline li:nth-child(even):after {
+	top: 0;
+	margin-top: -10px;
+	transform: translate(-50%, -100%);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .text, .text-1, .text-2{
+        font-size: 12px;
+    }
+    .urutan-1{
+        font-size: 10px;
+        text-align: center !important;
+    }
+    .image{
+        display: none;
+    }
+
+    .hadispedia-center{
+        margin-top: 50%;
+    }
+    .icon-download{
+        display: none;
+    }
+
+    .menu-non-mobile{
+        display: none;
+    }
+
+    .form-search{
+        z-index: -1;
+    }
+
+    .overlay-menu{
+        background-color: rgba(0,0,0,0.7) !important;
+    }
+
+    .timeline li:after {
+        content: attr(data-text);
+        font-size: 10px;
+    }
+
+    .timeline li:before {
+        content: attr(data-year);
+        font-size: 11px;
+    }
+  }
+
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: -136px;
+        z-index: 999;
+    }
+  }
