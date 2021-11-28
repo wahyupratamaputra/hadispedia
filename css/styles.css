@@ -8,8 +8,7 @@ body{
     font-size: 1.2rem;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .bg-image{
@@ -355,6 +354,10 @@ footer{
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    body{
+        font-size: 1rem; 
+    }
+
     .text, .text-1, .text-2{
         font-size: 12px;
     }
@@ -394,11 +397,11 @@ footer{
         content: attr(data-year);
         font-size: 11px;
     }
-  }
+}
 
-  @media (min-width: 992px){
+@media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         left: -136px;
         z-index: 999;
     }
-  }
+}
