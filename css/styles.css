@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .icon-user{
@@ -281,11 +281,14 @@ footer{
     font-size: 12px;
 }
 
+#blankspace{
+    margin: 100px 0;
+}
 
 .list-timeline{
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
 }
 
 .timeline {
