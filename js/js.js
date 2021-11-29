@@ -2,17 +2,20 @@ $( "#saran-button" ).click(function() {
   $( "#saran" ).slideToggle();
 });
 
-$(window).scroll(function() {
-  var hT = $('#linimasa').offset().top,
-      hH = $('#linimasa').outerHeight(),
-      wH = $(window).height(),
-      wS = $(this).scrollTop();
-  if (wS > (hT+hH-wH)){
-    $( "#list-tokoh" ).slideUp();
-    $( "#blankspace" ).slideUp();
-  }else{
+$( "#linimasa" ).hide();
+
+$(window).bind('mousewheel DOMMouseScroll', function(event){
+  if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+    console.log("up");
     $( "#list-tokoh" ).slideDown();
     $( "#blankspace" ).slideDown();
-    $(".hadispedia-center").css("min-height", "60vh")
+    $( "#linimasa" ).slideUp();
+  }
+  else {
+    $( "#list-tokoh" ).slideUp();
+    $( "#blankspace" ).slideUp();
+    $( "#linimasa" ).show();
+    $( "#linimasa" ).slideDown();
+    console.log("down");
   }
 });
