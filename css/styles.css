@@ -29,6 +29,12 @@ body{
 
 .icon-search{
     z-index: 9;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 26px;
+    color: grey;
 }
 
 .form-search{
@@ -256,6 +262,10 @@ span{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.btn-selengkapnya{
+    cursor: pointer;
 }
 
 
