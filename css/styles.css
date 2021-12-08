@@ -2,6 +2,14 @@
     font-family: 'helvetica';
     src: url(../font/helvetica.ttf);
 }
+@font-face {
+    font-family: 'isepMisbah';
+    src: url(../font/IsepMisbah.ttf);
+}
+
+.font-arabic{
+    font-family: 'isepMisbah';
+}
 
 body{
     font-family: 'helvetica';

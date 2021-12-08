@@ -80,7 +80,7 @@ const getHadisData = ()=>{
                     <!-- <div class="line-height-2">Derajat : <strong>Hasan</strong></div> -->
                   </div>
                   <div class="col-md-7">
-                    <div class="line-height-2">
+                    <div class="line-height-2 font-arabic">
                       ${data.arabic.substring(0, 300) + "..."}
                     </div>
                   </div>
@@ -137,7 +137,7 @@ const getDetailHadisData = ()=>{
                   <div class="line-height-2">Sumber : Sunan Ahmad jilid 12zzzzz</div> -->
                   </div>
                   <div class="col-md-7">
-                  <div class="line-height-2">
+                  <div class="line-height-2 font-arabic">
                       ${data.data.arabic}
                   </div>
                   </div>
